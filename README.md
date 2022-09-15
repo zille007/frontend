@@ -35,7 +35,7 @@ recommend setting up two linux servers (I used Linux AMI in Amazon cloud) that y
 Regarding postgresql:
 After you have installed python 2.7.x (+ the dependencies listed in the instructions) and postgresql server via package management, you should be able to initialize the needed database structures simply by running the file in create_postgresql_database_structures.zip (python create_postgresql_database.py). After that is done you can insert a test user with the username test1 and password test via typing the following command to postgresql shell: 
 
-INSERT INTO users VALUES (91, 'test1', 'test1', '098f6bcd4621d373cade4e832627b4f6', 'BETA', True, 0, 1500, 'me@here.fi'); 
+INSERT INTO users VALUES (91, 'test1', 'test1', '098f6bcd4621d373cade4e832627b4f6', 'BETA', True, 0, 1500, 'emailaddress'); 
 
 Backend server config file is called ServerConfig.py and frontend server config file is FrontendConfig.py.
 
